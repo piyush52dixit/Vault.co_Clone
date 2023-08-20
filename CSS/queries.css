@@ -1,0 +1,57 @@
+@media (max-width: 75em) {
+  .section {
+    width: 100rem;
+  }
+  header {
+    width: 100rem;
+  }
+  .section-hero-text h1 {
+    line-height: 1;
+    font-size: 4.6rem;
+  }
+  .section-hero-text {
+    padding: 3rem;
+  }
+  .section-hero-text p {
+    line-height: 1.5;
+    font-size: 1.6rem;
+  }
+  .section-hero-img img {
+    width: 107%;
+  }
+}
+@media (max-width: 56.25em) {
+  .nav-list,
+  .cta-btns {
+    display: none;
+    visibility: hidden;
+  }
+  .logo img {
+    /* transform: translateX(50%); */
+    width: 200%;
+  }
+  .bar {
+    display: block;
+  }
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+  .section-hero-img img {
+    width: 80%;
+    transform: translateY(30%);
+  }
+  .section-hero-text h1 {
+    line-height: 1.2;
+    font-size: 7rem;
+  }
+  .section-hero-text p {
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+  .btn-schedule {
+    transform: translateY(-3000%);
+  }
+  .grid-cols-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
